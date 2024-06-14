@@ -1,0 +1,48 @@
+.category {
+  padding: 30px 20px;
+  display: flex;
+}
+
+.left {
+  flex-direction: column;
+  align-items: normal;
+  position: static;
+  height: auto;
+  top: auto;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+label {
+  margin-left: 10px;
+}
+.filterItem {
+  margin-bottom: 30px;
+}
+
+.inputItem {
+  margin-bottom: 10px;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 768px) {
+  .category {
+    flex-direction: row;
+    padding: 30px 50px;
+  }
+
+  .left {
+    position: sticky;
+    height: 100%;
+    top: 50px;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+}

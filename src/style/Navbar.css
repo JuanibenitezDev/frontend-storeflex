@@ -1,0 +1,78 @@
+.containerNav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 60px;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.imgNav {
+  object-fit: cover;
+  height: 60px;
+  width: 150px;
+}
+
+.inputNav {
+  text-align: center;
+  width: 45%;
+}
+
+.iconsNav {
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.cartIconNav {
+  position: relative;
+}
+
+.spanNav {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gold;
+  color: #141414;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginNav {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 375px) {
+  .containerNav {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .imgNav {
+    padding-right: 15px;
+  }
+
+  .inputNav {
+    width: 100%;
+  }
+
+  .iconsNav {
+    padding: 20px;
+    gap: 10px;
+    font-size: 20px;
+  }
+
+  .spanNav {
+    width: 18px;
+    height: 18px;
+    right: -8px;
+    top: -8px;
+  }
+}
